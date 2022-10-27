@@ -1,15 +1,12 @@
-# v14-Altpayı
-Türkiyede ilk V14 altyapı
-MegalithOffical sunar.
+# v14 Botlist botu
 
-- **Yeni başlayanlar için uygun.**
-- **Sade bir sistem karışık tonlarca şey yok.**
-- **https://discordjs.guide/ ile uyumlu** (Command ve event loaderlar orada detaylıca anlatıldı)
-- **Basit ve hızlı kurulum.** 
-- **Örnek kodlar  ve eval komutu mevcuttur.**
+Yeni şeyler eklemesi basit olan bir Botlist botu.
 
 # Kurulum
 
 1. Projeyi clonelayın ve CMD açıp `npm i` yazın.
 2. `config.js` içindeki yerleri doldurun
 3. Aynı CMD üzerinden `node .` yazın ve Botunuz aktif.
+
+# Lisans
+Bu Proje benim iznim olmadan hiçbir ticari işte kullanılamaz veya pazarlanamaz.
