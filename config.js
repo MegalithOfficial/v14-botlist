@@ -2,9 +2,9 @@ const { IntentsBitField, OAuth2Scopes } = require('discord.js')
 
 module.exports = {
     bot: {
-        token: "MTAwOTQxNDgyMTE1MTc3Njg3OQ.GjZI4M.JICNjJ3Wc6fT2S-tJI33gN5eb253k86apqzwpo",
-        appId: "1009414821151776879", 
-        guildId: "752904645805867089",
+        token: "",
+        appId: "", 
+        guildId: "",
         ownerId: "", // Enter Owner discord id / Bot sahibinin idsini girin.
         handlerMode: "Global", // If you want bot work at all guilds set as "Global". If you want only work in single guild set as "Guild" // eğer botun tüm sunucularda çalışmasını istiyorsan "Global" yaz. eğer botun tek bir sunucuda çalışmasını istiyorsan "Guild" yaz.
         intents: [
