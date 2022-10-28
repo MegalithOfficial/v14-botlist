@@ -1,3 +1,8 @@
+/**
+ * @lisance MIT License
+ * Copyright (c) 2022 Megalith
+ */
+
 module.exports = {
   name: 'ready',
   once: true,

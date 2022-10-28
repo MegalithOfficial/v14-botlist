@@ -1,5 +1,7 @@
-const { bot } = require('./../config.js');
+const { bot, topgg } = require('./../config.js');
 const { Client } = require("discord.js");
+const { VoteCore } = require('./vote')
+const { JsonDatabase } = require("wio.db")
 
 module.exports = class extends Client {
 
@@ -14,6 +16,11 @@ module.exports = class extends Client {
       }
     });
     global.client = this
+    if(topgg.isVoteSystemEnabled === true) {
+     global.vote = new VoteCore({ token: topgg.token, port: topgg.port, password: topgg.password }); 
+     
+    }
+    global.db = new JsonDatabase({ databasePath:"./database/database.json" });
   
     require("../handlers/command-loader")
     require("../handlers/command-handler")(this)

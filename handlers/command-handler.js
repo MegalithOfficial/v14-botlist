@@ -1,3 +1,8 @@
+/**
+ * @lisance MIT License
+ * Copyright (c) 2022 Megalith
+ */
+
 const fs = require('fs')
 const path = require('path')
 const { Collection } = require('discord.js')

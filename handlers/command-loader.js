@@ -1,8 +1,12 @@
-const fs = require('fs')
-const path = require('path')
-const { REST } = require('@discordjs/rest')
-const { Routes } = require('discord-api-types/v10')
+/**
+ * @lisance MIT License
+ * Copyright (c) 2022 Megalith
+ */
+
+const { REST, Routes } = require('discord.js')
 const { bot } = require('../config')
+const path = require('path')
+const fs = require('fs')
 
 const commands = []
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'))
