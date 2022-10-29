@@ -4,7 +4,7 @@
  */
 
 const { ApplicationCommandType, ActionRowBuilder, ModalBuilder, TextInputBuilder, TextInputStyle, EmbedBuilder, ButtonStyle, ButtonBuilder } = require('discord.js');
-const { colors, topgg, bot } = require('../../config');
+const { colors, topgg } = require('../../config');
 const db = global.db;
 
 module.exports = {

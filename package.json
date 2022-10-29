@@ -10,6 +10,7 @@
   "author": "MegalithOffical",
   "dependencies": {
     "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
     "top.gg": "^2.3.2",
     "wio.db": "^4.0.22"
   },

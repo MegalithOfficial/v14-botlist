@@ -2,6 +2,7 @@ const { bot, topgg } = require('./../config.js');
 const { Client } = require("discord.js");
 const { VoteCore } = require('./vote')
 const { JsonDatabase } = require("wio.db")
+require('dotenv').config()
 
 module.exports = class extends Client {
 
@@ -31,6 +32,6 @@ module.exports = class extends Client {
   }
 
   login() {
-    super.login(bot.token).catch(e => console.log(e))
+    super.login(process.env.TOKEN).catch(e => console.log(e))
   };
 };
