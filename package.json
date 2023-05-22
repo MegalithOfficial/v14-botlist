@@ -1,19 +1,39 @@
 {
-  "name": "v14bosaltyapi",
-  "version": "1.0.1",
-  "description": "V14 boş altyapı",
-  "main": "main.js",
+  "name": "botlist-v2-rewrite",
+  "version": "2.0.0",
+  "description": "Faster, Better and Powerful botlist bot.",
+  "location": "./src/index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js"
+    "start": "clear && node src/process"
   },
-  "author": "MegalithOffical",
+  "keywords": [],
+  "author": "Megalith",
+  "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.6.0",
-    "top.gg": "^2.3.2",
+    "@discordjs/voice": "^0.16.0",
+    "@sapphire/bitfield": "^1.1.0",
+    "@sapphire/fetch": "^2.4.1",
+    "@sapphire/shapeshift": "^3.8.2",
+    "@sapphire/stopwatch": "^1.5.0",
+    "chalk": "^5.2.0",
+    "discord.js": "14.11.0",
+    "dotenv": "^16.0.3",
+    "eventemitter3": "^5.0.0",
+    "lodash": "^4.17.21",
+    "ora": "^6.3.0",
     "wio.db": "^4.0.22"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "@types/node": "^18.15.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegalithOffical/v14-botlist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MegalithOffical/v14-botlist/issues"
+  },
+  "homepage": "https://github.com/MegalithOffical/v14-botlist#readme"
 }

@@ -1,12 +1,12 @@
-# v14 Botlist botu
+# Megalith Botlist
+- An Advanced Discord Botlist Bot.
 
-Yeni şeyler eklemesi basit olan bir Botlist botu.
+## Setup
+- 1. Clone the project and open in your terminal.
+- 2. Type `pnpm i` or `npm i` to install dependencies.
+- 3. Rename the `.env.example` to `.env` and fill the environment variables.
+- 4. Start the bot with `npm start` command.
 
-# Kurulum
-
-1. Projeyi clonelayın ve CMD açıp `npm i` yazın.
-2. `config.js` içindeki yerleri doldurun
-3. Aynı CMD üzerinden `node .` yazın ve Botunuz aktif.
-
-# Lisans
-Bu Proje benim iznim olmadan hiçbir ticari işte kullanılamaz veya pazarlanamaz.
+# License
+This project is Protected by the MIT License.
+Its not allowed to sell any source code without specific prior written permission.
