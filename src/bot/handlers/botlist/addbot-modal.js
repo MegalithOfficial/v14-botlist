@@ -22,7 +22,7 @@ export default class extends Handler {
     const botId = interaction.fields.getTextInputValue('botid');
     const prefix = interaction.fields.getTextInputValue('botprefix');
     const extraNotes = interaction.fields.getTextInputValue('extranote') || "No Note written.";
-    const exist = await this.client.users.fetch(botId);
+    const exist = await this.client.users.fetch(botId).catch(() => null );
     
     if (db.get(`bot.${botId}.ownerId`) !== interaction.user.id && db.get(`bot.${botId}`)) {
 
